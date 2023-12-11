@@ -112,8 +112,6 @@ def parse_page(page_number: int) -> bool:
     print(f'-' * 33)
     print(f'Страница: {page_number}')
 
-    # write_first_row_csv()
-
     products_counter = 0
 
     products_res = get_products(page_number)
